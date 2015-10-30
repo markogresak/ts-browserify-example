@@ -2,6 +2,12 @@
 
 This is a minimum working example of [browserify](https://www.npmjs.com/package/browserify) with [tsify](https://www.npmjs.com/package/tsify), used to bundle `.tsx` files into a single `main.js` file.
 
+#### Folder structure:
+
+ - `/`: configs
+ - `/src/`: TypeScript files
+ - `/public/`: files accessed in browser 
+
 ### Usage
 
 1. Clone this project.
