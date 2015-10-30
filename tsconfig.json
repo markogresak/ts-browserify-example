@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "outDir": "dist",
+        "jsx": "react"
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx",
+        "!./node_modules/**/*.ts",
+        "!./node_modules/**/*.tsx"
+    ],
+    "files": [
+        "./src/script1.tsx",
+        "./src/script2.tsx"
+    ]
+}
